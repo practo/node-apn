@@ -76,6 +76,7 @@ interface Aps {
   "mutable-content"?: undefined | 1
   "url-args"?: string[]
   category?: string
+  "interruption-level"?: string
 }
 
 export interface ResponseSent {
